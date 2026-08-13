@@ -29,6 +29,7 @@ PSSE Tool (release)*/
 acc*/
 *.xls*
 *.exe
+*test*/
 
 # Runtime and editor leftovers
 *.log
