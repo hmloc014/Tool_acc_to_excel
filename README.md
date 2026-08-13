@@ -39,7 +39,7 @@ target workbook in Excel before starting.
 `acc_to_excel_app.py` is the Python 2.7-compatible UI source and
 `Acc_to_Excel.spec` is its PyInstaller build configuration.
 
-## Usage
+## Python file usage in CMD
 Place `Contingency-sample.xlsm` and `.acc` files in the same folder;
 Open CMD in folder location and type:
 
