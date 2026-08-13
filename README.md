@@ -1,6 +1,3 @@
-# Run ACCC to EXCEL by visual studio code to convert from .acc to .xlsx
-# Then run the app to combine and translate all the .xlsx file into 1 file
-
 ## ACC folder import core
 
 `acc2excel.process_acc_folder()` implements the workbook workflow without any
@@ -24,3 +21,13 @@ descriptions, writes the five headers (`Monitored Element`, `Contingency`,
 `Others`, `Base Flow`, and `Maximum Flow`) in `D4:H4`, and writes the first data
 row in `D5:H5`. PSS/E 33 normally requires Python 2.7. Close the target workbook
 in Excel before running the import.
+
+## Usage
+Place `Contingency-sample.xlsm` and `.acc` files in the same folder;
+Open CMD in folder location and type:
+
+```
+
+"C:\Python27\python.exe" acc2excel.py "." --workbook "ten-file.xlsm"
+
+```
