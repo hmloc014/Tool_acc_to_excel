@@ -1,2 +1,2 @@
-Run ACCC to EXCEL by visual studio code to convert from .acc to .xlsx
-Then run the app to combine and translate all the .xlsx file into 1 file
+# Run ACCC to EXCEL by visual studio code to convert from .acc to .xlsx
+# Then run the app to combine and translate all the .xlsx file into 1 file
